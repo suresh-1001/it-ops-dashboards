@@ -6,3 +6,15 @@ docker run -d --name prom -p 9090:9090 -v $PWD/prometheus.yml:/etc/prometheus/pr
 ## Grafana
 docker run -d --name grafana -p 3000:3000 grafana/grafana
 # Import grafana_dashboard.json via Grafana -> Dashboards -> Import
+
+
+## Artifacts
+- `/docs/` step-by-step with screenshots
+- `/scripts/` repeatable automation
+- `/dashboards/` sample JSON/PBIX (if relevant)
+- `/templates/` redacted policies/SOPs
+
+---
+**Contact**  
+- Email: **suresh@echand.com**  
+- LinkedIn: **linkedin.com/in/sureshchand01**
